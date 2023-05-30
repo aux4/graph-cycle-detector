@@ -1,0 +1,26 @@
+{
+  "name": "@aux4/graph-cycle-detector",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Graph Cycle Detector",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "graph-cycle-detector": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "graph",
+    "cycle",
+    "detector",
+    "terraform"
+  ],
+  "author": "Aux4",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "open": "^9.1.0",
+    "pako": "^2.1.0"
+  }
+}
